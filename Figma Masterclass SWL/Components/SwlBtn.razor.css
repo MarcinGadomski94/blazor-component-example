@@ -1,0 +1,15 @@
+.swl-btn {
+    cursor: pointer;
+}
+
+.swl-btn.primary {
+    
+}
+
+.swl-btn.stroke {
+    
+}
+
+.swl-btn.disabled {
+    cursor: not-allowed;
+}

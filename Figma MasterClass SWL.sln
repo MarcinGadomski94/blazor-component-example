@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figma Masterclass SWL", "Figma Masterclass SWL\Figma Masterclass SWL.csproj", "{20042764-0371-456A-B830-4B25C6C6F4F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GIT", "GIT", "{44A7B290-7DFC-4A40-BB58-08373FBFAB14}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20042764-0371-456A-B830-4B25C6C6F4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20042764-0371-456A-B830-4B25C6C6F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20042764-0371-456A-B830-4B25C6C6F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20042764-0371-456A-B830-4B25C6C6F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

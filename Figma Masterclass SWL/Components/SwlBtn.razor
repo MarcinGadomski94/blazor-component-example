@@ -1,0 +1,17 @@
+<div class="swl-btn @(Type.ToString().ToLower()) @(Disabled ? "disabled" : "")">I am a button</div>
+
+@code {
+    
+    [Parameter]
+    public bool Disabled { get; set; }
+    
+    [Parameter]
+    public SwlBtnType Type { get; set; }
+
+    public enum SwlBtnType
+    {
+        Primary,
+        Stroke
+    }
+    
+}
