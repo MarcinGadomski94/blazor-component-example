@@ -1,4 +1,4 @@
-<div class="swl-btn @(Type.ToString().ToLower()) @(Disabled ? "disabled" : "")">I am a button</div>
+<div class="swl-btn @(Type.ToString().ToLower()) @(Disabled ? "disabled" : "")">@Text</div>
 
 @code {
     
@@ -7,6 +7,9 @@
     
     [Parameter]
     public SwlBtnType Type { get; set; }
+
+    [Parameter]
+    public string Text { get; set; } = string.Empty;
 
     public enum SwlBtnType
     {
